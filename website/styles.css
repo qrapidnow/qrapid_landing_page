@@ -43,12 +43,14 @@ nav a {
 }
 
 .search {
+    padding: 50px;
     border: none;
     outline: none;
     border-radius: 30px; /* Rounded corners */
 }
 
 .search-button {
+    padding: 50px;
     background-color: transparent;
     border: none;
     cursor: pointer;
