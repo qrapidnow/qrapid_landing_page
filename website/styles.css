@@ -112,10 +112,10 @@ nav a {
     width: calc(100% - 60px); /* Shortened width */
     height: calc(35vh - 70px); /* Shortened height */
     position: absolute;
-    top: calc(50% + 40px); /* Adjusted top position */
+    top: calc(50% + 20px); /* Adjusted top position */
     left: 50%; /* Centered horizontally */
     transform: translateX(-50%);
-    margin: 20px auto; /* Centered horizontally */
+    margin: 40px auto; /* Centered horizontally */
     text-align: left; /* Align text to the left */
 }
 
