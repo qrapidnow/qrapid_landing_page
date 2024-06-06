@@ -101,7 +101,7 @@ nav a {
     top: 70px;/* Adjusted position to overlap with the green container */
     bottom: -3px; /* Positioned above the bottom */
     transform: rotate(7deg); /* Added rotation */
-    width: 550px; /* Reduced width */
+    width: 950px; /* Reduced width */
     height: auto;
     z-index: 1; /* Set a higher z-index to position the image over the green container */
 }
