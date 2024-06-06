@@ -9,10 +9,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px; /* Reduced padding */
+    padding: 20px 20px 20px 40px; /* Added padding from the top */
     background-color: black;
 }
-
 .header-left {
     display: flex;
     align-items: center;
@@ -36,9 +35,9 @@ nav {
 
 nav a {
     color: white;
-    margin: 0 20px; /* Adjusted margin for equal spacing */
+    margin: 0 30px; /* Adjusted margin for equal spacing */
     text-decoration: none;
-    font-size: 14px; /* Adjusted font size */
+    font-size: 16px; /* Increased font size */
 }
 
 .search-container {
@@ -49,31 +48,30 @@ nav a {
     overflow: hidden;
     width: auto;
     max-width: 150px;
-    margin-left: 20px; /* Added margin for spacing */
+    margin-left: 30px; /* Added margin for spacing */
 }
 
-
 .search {
-    padding: 5px;
+    padding: 8px; /* Increased padding */
     border: none;
     outline: none;
-    border-radius: 20px; /* Reduced border radius */
+    border-radius: 20px;
     width: 100%;
-    font-size: 14px; /* Reduced font size */
+    font-size: 16px; /* Increased font size */
 }
 
 .search-button {
     background-color: transparent;
     border: none;
-    padding: 5px;
+    padding: 8px; /* Increased padding */
     cursor: pointer;
-    margin-right: 3px; /* Reduced margin */
+    margin-right: 5px; /* Adjusted margin */
 }
 
 .search-button img {
-    width: 14px; /* Reduced icon size */
-    height: 14px; /* Reduced icon size */
-    margin-right: 3px; /* Reduced margin */
+    width: 16px;
+    height: 16px;
+    margin-right: 5px; /* Adjusted margin */
 }
 
 .container {
