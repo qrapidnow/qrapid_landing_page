@@ -57,8 +57,8 @@ nav a {
 }
 
 .search-button img {
-    width: 16px;
-    height: 16px;
+    width: 8px;
+    height: 8px;
 }
 
 .container {
@@ -89,7 +89,7 @@ nav a {
     top: 50%;
     transform: translateY(-50%) rotate(15deg); /* Added rotation */
     width: 300px;
-    height: auto;
+    height: 900px;
 }
 
 .demo-container {
