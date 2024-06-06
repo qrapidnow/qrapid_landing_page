@@ -39,7 +39,10 @@ nav a {
     display: flex;
     align-items: center;
     background-color: white;
+    border-radius: 30px;
     overflow: hidden;
+    width: auto; /* Adjusted width to fit content */
+    max-width: 150px; /* Added maximum width to limit size */
 }
 
 .search {
@@ -47,18 +50,19 @@ nav a {
     border: none;
     outline: none;
     border-radius: 30px; /* Rounded corners */
+    width: 100%; /* Fill the available space */
 }
 
 .search-button {
-    padding: 5px;
     background-color: transparent;
     border: none;
+    padding: 5px;
     cursor: pointer;
 }
 
 .search-button img {
-    width: 8px;
-    height: 8px;
+    width: 16px;
+    height: 16px;
 }
 
 .container {
