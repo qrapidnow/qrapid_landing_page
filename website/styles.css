@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px; /* Reduced padding */
     background-color: black;
 }
 
@@ -19,15 +19,16 @@ header {
 }
 
 .logo {
-    height: 50px;
-    margin-right: 10px;
+    height: 40px; /* Reduced logo size */
+    margin-right: 5px; /* Reduced margin */
 }
 
 .logo-text {
-    font-size: 24px;
+    font-size: 20px; /* Reduced font size */
     color: white;
     margin: 0;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -35,26 +36,28 @@ nav {
 
 nav a {
     color: white;
-    margin: 0 10px;
+    margin: 0 5px; /* Reduced margin */
     text-decoration: none;
+    font-size: 14px; /* Reduced font size */
 }
 
 .search-container {
     display: flex;
     align-items: center;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 20px; /* Reduced border radius */
     overflow: hidden;
     width: auto;
-    max-width: 150px;
+    max-width: 120px; /* Reduced max-width */
 }
 
 .search {
     padding: 5px;
     border: none;
     outline: none;
-    border-radius: 30px;
+    border-radius: 20px; /* Reduced border radius */
     width: 100%;
+    font-size: 14px; /* Reduced font size */
 }
 
 .search-button {
@@ -62,77 +65,71 @@ nav a {
     border: none;
     padding: 5px;
     cursor: pointer;
-    margin-right: 5px;
+    margin-right: 3px; /* Reduced margin */
 }
 
 .search-button img {
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
+    width: 14px; /* Reduced icon size */
+    height: 14px; /* Reduced icon size */
+    margin-right: 3px; /* Reduced margin */
 }
 
 .container {
     text-align: center;
-    padding: 50px;
+    padding: 30px; /* Reduced padding */
     position: relative;
     height: 100vh;
 }
 
 #intro {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 30px; /* Reduced margin */
 }
 
 .main-heading {
-    font-size: 48px;
+    font-size: 36px; /* Reduced font size */
     font-weight: bold;
-    margin: 20px 0;
+    margin: 10px 0; /* Reduced margin */
     line-height: 1.2;
     text-align: left;
-    display: inline-block;
-    width: 100%;
 }
 
 .mobile-image {
     position: absolute;
-    right: -50px; /* Adjusted position to overlap with the green container */
-    top: 70%; /* Moved the image downwards */
+    right: -30px; /* Adjusted position to overlap with the green container */
+    top: 60%; /* Moved the image downwards */
     transform: translateY(-50%) rotate(15deg); /* Added rotation */
-    width: 400px; /* Increased width */
+    width: 300px; /* Reduced width */
     height: auto;
 }
 
-
-
 .demo-container {
     background-color: green;
-    padding: 20px;
-    border-radius: 30px;
-    width: calc(100% - 80px); /* Shortened width */
-    height: calc(40vh - 90px); /* Shortened height */
+    padding: 15px; /* Reduced padding */
+    border-radius: 20px; /* Reduced border radius */
+    width: calc(100% - 60px); /* Shortened width */
+    height: calc(35vh - 70px); /* Shortened height */
     position: absolute;
-    top: calc(50% + 60px); /* Adjusted top position */
+    top: calc(50% + 40px); /* Adjusted top position */
     left: 50%; /* Centered horizontally */
     transform: translateX(-50%);
     margin: 20px auto; /* Centered horizontally */
     text-align: left; /* Align text to the left */
 }
 
-
 .demo-container p {
-    font-size: 18px; /* Increased font size */
-    line-height: 1.5; /* Added line height for better readability */
+    font-size: 16px; /* Reduced font size */
+    line-height: 1.3; /* Adjusted line height */
 }
-
 
 .cta-button {
     background-color: yellow;
     color: black;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 8px 15px; /* Reduced padding */
+    font-size: 14px; /* Reduced font size */
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px; /* Added margin-top to separate the button from the paragraph */
+    margin-top: 8px; /* Reduced margin-top */
     float: left; /* Positioned the button to the left */
 }
