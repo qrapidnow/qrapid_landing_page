@@ -108,10 +108,15 @@ nav a {
     height: calc(50vh - 90px);
     position: absolute;
     top: calc(50% + 70px); /* Adjusted top position */
-    left: 50%;
+    left: 20px; /* Moved to the left */
     transform: translate(-50%, -50%);
-    margin: 20px 20px;
+    margin: 20px 0; /* Adjusted margin to create equal gaps from top and bottom */
 }
+
+.demo-container p {
+    text-align: left; /* Align text to the left */
+}
+
 
 .cta-button {
     background-color: yellow;
