@@ -78,9 +78,11 @@ nav a {
     font-weight: bold;
     margin: 20px 0;
     line-height: 1.2;
-    text-align: left;
+    text-align: left; /* Align to the left */
     display: inline-block;
+    width: 100%; /* Make sure it takes up the full width */
 }
+
 
 .mobile-image {
     position: absolute;
