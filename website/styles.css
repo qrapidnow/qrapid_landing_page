@@ -115,9 +115,9 @@ nav a {
     height: calc(35vh - 70px); /* Shortened height */
     position: absolute;
     top: calc(50% + 20px); /* Adjusted top position */
-    left: 80%; /* Centered horizontally */
+    left: 40%; /* Centered horizontally */
     transform: translateX(-50%);
-    margin: 80px auto; /* Centered horizontally */
+    margin: 40px auto; /* Centered horizontally */
     text-align: left; /* Align text to the left */
 }
 
