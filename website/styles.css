@@ -114,10 +114,6 @@ nav a {
     text-align: left; /* Align text to the left */
 }
 
-.demo-container h1 {
-    margin-bottom: 20px; /* Added margin to create space between heading and paragraph */
-}
-
 .demo-container p {
     font-size: 18px; /* Increased font size */
     line-height: 1.5; /* Added line height for better readability */
