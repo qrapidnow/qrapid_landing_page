@@ -108,9 +108,9 @@ nav a {
     height: calc(50vh - 90px); /* Adjusted height to bring it slightly up */
     position: absolute;
     top: calc(40% + 0px); /* Adjusted top position */
-    left: 50%; /* Centered horizontally */
-    transform: translateX(-50%);
-    margin: 20px 20px ; /* Adjusted margin to create equal gaps from top and bottom */
+    left: 20px; /* Adjusted left position for equal distance from left */
+    right: 20px; /* Adjusted right position for equal distance from right */
+    margin: 20px auto; /* Centered horizontally */
     text-align: left; /* Align text to the left */
 }
 
@@ -118,6 +118,7 @@ nav a {
     font-size: 18px; /* Increased font size */
     line-height: 1.5; /* Added line height for better readability */
 }
+
 
 .cta-button {
     background-color: yellow;
