@@ -94,15 +94,16 @@ nav a {
 .demo-container {
     background-color: green;
     padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
-    margin-top: 20px;
-    width: 50%; /* Adjusted width to cover half */
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 40px); /* Adjusted width to provide equal spacing from left and right */
     height: calc(50vh - 90px); /* Added to cover half of the viewport height minus header and intro height */
     position: absolute;
     top: 50%; /* Adjusted top position */
-    left: 0; /* Adjusted left position */
-    transform: translateY(-50%); /* Adjusted transform */
+    left: 50%; /* Adjusted left position */
+    transform: translate(-50%, -50%); /* Adjusted transform */
 }
 
 .demo-container p {
