@@ -95,12 +95,13 @@ nav a {
 
 .mobile-image {
     position: absolute;
-    right: 0;
+    right: -50px; /* Adjusted position to overlap with the green container */
     top: 50%;
     transform: translateY(-50%) rotate(15deg); /* Added rotation */
-    width: 300px;
+    width: 400px; /* Increased width */
     height: auto;
 }
+
 
 .demo-container {
     background-color: green;
