@@ -108,8 +108,8 @@ nav a {
     height: calc(50vh - 90px);
     position: absolute;
     top: calc(50% + 70px); /* Adjusted top position */
-    left: 20px; /* Moved to the left */
-    transform: translate(-50%, -50%);
+    left: 50%; /* Centered horizontally */
+    transform: translateX(-50%);
     margin: 20px 0; /* Adjusted margin to create equal gaps from top and bottom */
 }
 
