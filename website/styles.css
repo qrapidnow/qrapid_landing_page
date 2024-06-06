@@ -99,10 +99,10 @@ nav a {
 
 .mobile-image {
     position: absolute;
-    right: -60px;
+    right: -90px;
     top: 70px;/* Adjusted position to overlap with the green container */
     bottom: -1px; /* Positioned above the bottom */
-    transform: rotate(10deg); /* Added rotation */
+    transform: rotate(7deg); /* Added rotation */
     width: 550px; /* Reduced width */
     height: auto;
     z-index: 1; /* Set a higher z-index to position the image over the green container */
@@ -114,13 +114,13 @@ nav a {
     background-color: green;
     padding: 10px 20px; /* Adjusted padding */
     border-radius: 15px; /* Reduced border radius */
-    width: calc(100% - 100px); /* Shortened width */
+    width: calc(100% - 140px); /* Shortened width */
     height: calc(25vh - 30px); /* Shortened height */
     position: absolute;
     top: calc(50% + 10px); /* Adjusted top position */
     left: 50%; /* Centered horizontally */
     transform: translateX(-50%);
-    margin-top: 20px; /* Reduced top margin */
+    margin-top: 10px; /* Reduced top margin */
     margin-bottom: 10px; /* Reduced bottom margin */
     text-align: left; /* Align text to the left */
 }
