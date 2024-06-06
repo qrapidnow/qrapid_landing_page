@@ -18,4 +18,15 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     });
+
+    const searchButton = document.querySelector(".search-button");
+    searchButton.addEventListener("click", () => {
+        const query = searchInput.value.trim();
+        if (query) {
+            alert(`Search for: ${query}`);
+            // Implement the search functionality here
+            // For example, redirect to a search results page
+            // window.location.href = `search.html?query=${encodeURIComponent(query)}`;
+        }
+    });
 });
