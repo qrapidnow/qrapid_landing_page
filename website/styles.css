@@ -46,7 +46,7 @@ nav a {
 }
 
 .search {
-    padding: 20px;
+    padding: 5px;
     border: none;
     outline: none;
     border-radius: 30px; /* Rounded corners */
@@ -64,8 +64,8 @@ nav a {
 .search-button img {
     width: 16px;
     height: 16px;
-    margin-right: 5px; /* Added margin to create space between the icon and the button */
-    margin-left: 5px; /* Added margin to create space between the icon and the search text */
+    margin-right: 0.1px; /* Added margin to create space between the icon and the button */
+    margin-left: 15px; /* Added margin to create space between the icon and the search text */
 }
 
 
