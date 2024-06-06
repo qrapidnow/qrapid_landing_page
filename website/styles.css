@@ -104,7 +104,7 @@ nav a {
     top: 50%; /* Adjusted top position */
     left: 50%; /* Adjusted left position */
     transform: translate(-50%, -50%); /* Adjusted transform */
-    margin: 0 20px; /* Added margin to create equal gaps from left and right */
+    margin: 20px 20px; /* Added margin to create equal gaps from left and right */
 }
 
 
