@@ -39,7 +39,6 @@ nav a {
     display: flex;
     align-items: center;
     background-color: white;
-    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -47,6 +46,7 @@ nav a {
     padding: 5px;
     border: none;
     outline: none;
+    border-radius: 30px; /* Rounded corners */
 }
 
 .search-button {
@@ -65,12 +65,12 @@ nav a {
     text-align: center;
     padding: 50px;
     position: relative;
-    height: 100vh; /* Added to cover the entire viewport height */
+    height: 100vh;
 }
 
 #intro {
     position: relative;
-    margin-bottom: 50px; /* Added to create space between intro and demo-container */
+    margin-bottom: 50px;
 }
 
 .main-heading {
@@ -78,17 +78,16 @@ nav a {
     font-weight: bold;
     margin: 20px 0;
     line-height: 1.2;
-    text-align: left; /* Align to the left */
+    text-align: left;
     display: inline-block;
-    width: 100%; /* Make sure it takes up the full width */
+    width: 100%;
 }
-
 
 .mobile-image {
     position: absolute;
     right: 0;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) rotate(15deg); /* Added rotation */
     width: 300px;
     height: auto;
 }
@@ -97,19 +96,14 @@ nav a {
     background-color: green;
     padding: 20px;
     border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: calc(100% - 40px); /* Adjusted width to provide equal spacing from left and right */
-    height: calc(50vh - 90px); /* Added to cover half of the viewport height minus header and intro height */
+    width: calc(100% - 40px);
+    height: calc(50vh - 90px);
     position: absolute;
-    top: 50%; /* Adjusted top position */
-    left: 50%; /* Adjusted left position */
-    transform: translate(-50%, -50%); /* Adjusted transform */
-    margin: 20px 20px; /* Added margin to create equal gaps from left and right */
+    top: calc(50% + 70px); /* Adjusted top position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20px 20px;
 }
-
-
 
 .cta-button {
     background-color: yellow;
@@ -120,4 +114,7 @@ nav a {
     border-radius: 5px;
     margin-top: 10px;
     cursor: pointer;
+    display: block; /* Display on a new line */
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
 }
