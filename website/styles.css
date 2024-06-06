@@ -107,7 +107,7 @@ nav a {
     width: calc(100% - 40px);
     height: calc(50vh - 110px); /* Adjusted height to bring it slightly up */
     position: absolute;
-    top: calc(50% + 20px); /* Adjusted top position */
+    top: calc(50% + 0px); /* Adjusted top position */
     left: 50%; /* Centered horizontally */
     transform: translateX(-50%);
     margin: 20px 0; /* Adjusted margin to create equal gaps from top and bottom */
