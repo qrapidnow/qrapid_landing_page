@@ -111,10 +111,16 @@ nav a {
     left: 50%; /* Centered horizontally */
     transform: translateX(-50%);
     margin: 20px 0; /* Adjusted margin to create equal gaps from top and bottom */
+    text-align: left; /* Align text to the left */
+}
+
+.demo-container h1 {
+    margin-bottom: 20px; /* Added margin to create space between heading and paragraph */
 }
 
 .demo-container p {
-    text-align: left; /* Align text to the left */
+    font-size: 18px; /* Increased font size */
+    line-height: 1.5; /* Added line height for better readability */
 }
 
 
