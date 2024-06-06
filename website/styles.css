@@ -64,10 +64,13 @@ nav a {
 .container {
     text-align: center;
     padding: 50px;
+    position: relative;
+    height: 100vh; /* Added to cover the entire viewport height */
 }
 
 #intro {
     position: relative;
+    margin-bottom: 50px; /* Added to create space between intro and demo-container */
 }
 
 .main-heading {
@@ -95,6 +98,11 @@ nav a {
     display: inline-block;
     margin-top: 20px;
     width: 50%; /* Adjusted width to cover half */
+    height: calc(50vh - 90px); /* Added to cover half of the viewport height minus header and intro height */
+    position: absolute;
+    top: 50%; /* Adjusted top position */
+    left: 0; /* Adjusted left position */
+    transform: translateY(-50%); /* Adjusted transform */
 }
 
 .demo-container p {
