@@ -111,8 +111,8 @@ nav a {
     background-color: green;
     padding: 15px; /* Reduced padding */
     border-radius: 20px; /* Reduced border radius */
-    width: calc(100% - 60px); /* Shortened width */
-    height: calc(35vh - 70px); /* Shortened height */
+    width: calc(100% - 90px); /* Shortened width */
+    height: calc(35vh - 90px); /* Shortened height */
     position: absolute;
     top: calc(50% + 20px); /* Adjusted top position */
     left: 40%; /* Centered horizontally */
