@@ -94,7 +94,7 @@ nav a {
     border-radius: 10px;
     display: inline-block;
     margin-top: 20px;
-    width: calc(100% - 40px);
+    width: 50%; /* Adjusted width to cover half */
 }
 
 .demo-container p {
