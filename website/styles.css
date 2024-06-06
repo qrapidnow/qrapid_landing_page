@@ -99,9 +99,9 @@ nav a {
 
 .mobile-image {
     position: absolute;
-    right: -200px;
+    right: 90px;
     top: 70px;/* Adjusted position to overlap with the green container */
-    bottom: -1px; /* Positioned above the bottom */
+    bottom: -3px; /* Positioned above the bottom */
     transform: rotate(7deg); /* Added rotation */
     width: 550px; /* Reduced width */
     height: auto;
