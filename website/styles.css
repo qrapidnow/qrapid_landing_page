@@ -70,19 +70,21 @@ nav a {
     position: relative;
 }
 
-#intro h1 {
+.main-heading {
     font-size: 48px;
     font-weight: bold;
     margin: 20px 0;
     line-height: 1.2;
+    text-align: left;
+    display: inline-block;
 }
 
 .mobile-image {
     position: absolute;
-    right: 20%;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 
@@ -91,9 +93,8 @@ nav a {
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
-    margin-top: 50px;
-    width: 100%;
-    max-width: 800px;
+    margin-top: 20px;
+    width: calc(100% - 40px);
 }
 
 .demo-container p {
